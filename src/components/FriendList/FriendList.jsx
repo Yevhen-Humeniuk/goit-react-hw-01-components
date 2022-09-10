@@ -1,4 +1,4 @@
-<ul class="friend-list">
+{/* <ul class="friend-list">
   <!-- Довільна кіл-сть FriendListItem -->
 </ul>
 
@@ -7,8 +7,8 @@
   <span class="status"></span>
   <img class="avatar" src="" alt="User avatar" width="48" />
   <p class="name"></p>
-</li>
+</li> */}
 
-import friends from "path/to/friends.json";
+import friends from "../FriendList/friends.json";
 
 <FriendList friends={friends} />;
